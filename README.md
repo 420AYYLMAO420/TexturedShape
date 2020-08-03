@@ -6,9 +6,9 @@ The textures have been interpolated so that both textures can be seen at the sam
 inside the geometry.
 
 The following API and libraries were used:
--OpenGL for rendering
--GLFW for window management
--stb_image for image loading
+-[OpenGL](https://www.opengl.org/) for rendering
+-[GLFW](https://www.glfw.org/) for window management
+-[stb_image](https://github.com/nothings/stb/blob/master/stb_image.h) for image loading
 
 If you wish to apply your own textures, just change the following code in Graphics.cpp:
 TextureObj->Textures.emplace_back("resources/JamaicanAinsley.png", "texture1");
